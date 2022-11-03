@@ -1,0 +1,54 @@
+<!-- Collect tags_tools from all posts -->
+{%- assign tags_tools = blank -%}
+{%- for post in site.posts -%}
+  {%- assign post_tags = post.tags | join:'|' | append:'|' -%}
+  {%- if post_tags != '|' -%}
+    {%- assign tags_tools = tags_tools | append:post_tags -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<!-- Collect tags_tools from all projects -->
+{%- for post in site.projects -%}
+  {%- assign post_tools = post.tools | join:'|' | append:'|' -%}
+  {%- if post_tools != '|' -%}
+    {%- assign tags_tools = tags_tools | append:post_tools -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign tags_tools = tags_tools | split:'|' | uniq | sort -%}
+
+
+<!-- List tags_tools & related posts -->
+{% for tag in tags_tools %}
+<div class="py-3">
+  <h4 id="{{ tag | slugify }}">{{ tag }}</h4>
+  <ol>
+  {% for post in site.posts %}
+    {%- if post.tags contains tag -%}
+      {%- if post.external_url -%}
+        {%- assign url = post.external_url -%}
+      {%- else -%}
+        {%- assign url = post.url | relative_url -%}
+      {%- endif -%}
+    <a href="{{ url }}"><li>{{ post.title }}</li></a>
+    <small class="text-muted"> - {{ post.date | date_to_long_string }}</small>
+    <br/>
+    {%- endif -%}
+  {% endfor %}
+
+  {% for post in site.projects %}
+    {%- if post.tools contains tag -%}
+      {%- if post.external_url -%}
+        {%- assign url = post.external_url -%}
+      {%- else -%}
+        {%- assign url = post.url | relative_url -%}
+      {%- endif -%}
+    <a href="{{ url }}"><li>{{ post.title }}</li></a>
+    <small class="text-muted"> - {{ post.date | date_to_long_string }}</small>
+    <br/>
+    {%- endif -%}
+  {% endfor %}
+
+  </ol>
+</div>
+<hr class="bg-light">
+{% endfor %}

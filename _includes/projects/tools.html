@@ -1,0 +1,31 @@
+<!-- Collect tools from all projects -->
+{%- assign tools = blank -%}
+{%- for post in site.projects -%}
+  {%- assign post_tools = post.tools | join:'|' | append:'|' -%}
+  {%- if post_tools != '|' -%}
+    {%- assign tools = tools | append:post_tools -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign tools = tools | split:'|' | uniq | sort -%}
+
+<!-- List tools & related projects -->
+{% for tool in tools %}
+<div class="py-3">
+  <h4 id="{{ tool | slugify }}">{{ tool }}</h4>
+  <ol>
+  {% for post in site.projects %}
+    {%- if post.tools contains tool -%}
+      {%- if post.external_url -%}
+        {%- assign url = post.external_url -%}
+      {%- else -%}
+        {%- assign url = post.url | relative_url -%}
+      {%- endif -%}
+    <a href="{{ url }}"><li>{{ post.title }}</li></a>
+    <small class="text-muted"> - {{ post.date | date_to_long_string }}</small>
+    <br/>
+    {%- endif -%}
+  {% endfor %}
+  </ol>
+</div>
+<hr class="bg-light">
+{% endfor %}
