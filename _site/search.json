@@ -1,0 +1,124 @@
+[
+  
+    {
+      "title"    : "GAN(Generative Adversarial Networks)",
+      "category" : "",
+      "tags"     : "Pytorch, Computer Vision, Deep Learning",
+      "url"      : "/blog/GAN(Generative_Adversarial_Networks)",
+      "date"     : "2022-02-16 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "Convolutional Neural Network(CNN)",
+      "category" : "",
+      "tags"     : "Pytorch, Computer Vision, Deep Learning",
+      "url"      : "/blog/Convolutional_Neural_Network(CNN)",
+      "date"     : "2022-01-22 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "DropOut / ReLU / Batch Normalization / Initializtion / Optimizer / AutoEncoder",
+      "category" : "DeepLearning",
+      "tags"     : "Pytorch, MLP, Deep Learning",
+      "url"      : "/blog/DropOut_ReLU_Batch_Normalization_Initializtion_Optimizer_AutoEncoder",
+      "date"     : "2022-01-06 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "Multi Layer Perceptron(MLP)",
+      "category" : "DeepLearning",
+      "tags"     : "Pytorch, MLP, Deep Learning",
+      "url"      : "/blog/MLP",
+      "date"     : "2022-01-02 00:00:00 +0900"
+    } 
+  ,
+  
+    {
+      "title"    : "Artificial Intelligence Bit Trader Competition Season 3",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2021_6_25_Artificial_Intelligence_Bit_Trader_Competition_Season_3.ipynb",
+      "date"     : "2021-06-25 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "2021 (2nd) NH Investment",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/2021-11-26-2021-2nd-nh-investment",
+      "date"     : "2021-11-26 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "Development of a demand forecasting model for gas supply",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/2021-12-10-development-of-a-demand-forecasting-model-for-gas-supply",
+      "date"     : "2021-12-10 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "Logistics distribution forecasting contest",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/2021-12-20-logistics-distribution-forecasting-contest",
+      "date"     : "2021-12-20 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "A contest to predict the rental volume of Ttareungi",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2021_12_31_AI_Competition_to_Predict_Parking_Demand.ipynb",
+      "date"     : "2021-12-31 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "AI Competition to Predict Parking Demand",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2021_12_31_A_contest_to_predict_the_rental_volume_of_Ttareungi.ipynb",
+      "date"     : "2021-12-31 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "AI competition to diagnose crop diseases due to changes in the agricultural environment",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2022_1_17_AI_competition_to_diagnose_crop_diseases_due_to_changes_in_the_agricultural_environment.ipynb",
+      "date"     : "2022-01-17 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "Smart Livestock Data Utilization Contest",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/2022-1-17-smart-livestock-data-utilization-contest",
+      "date"     : "2022-01-17 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "AI SPARK Challenge of the 2nd R&amp;D Special Zone Artificial Intelligence Competition",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/AIFactory/2022_2_4_AI_SPARK_Challenge_of_the_2nd_R%26D_Special_Zone_Artificial_Intelligence_Competition.ipynb",
+      "date"     : "2022-02-04 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "A competition to optimize the environment for growth3",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2022_05_08_A_competition_to_optimize_the_environment_for_growth3.ipynb",
+      "date"     : "2022-05-08 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "Samsung AI Challenge (3D Metrology)",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2022_9_16_Samsung_AI_Challenge_(3D_Metrology).ipynb",
+      "date"     : "2022-09-16 00:00:00 +0900"
+    } 
+  
+]
