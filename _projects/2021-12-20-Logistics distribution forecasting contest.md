@@ -3,6 +3,7 @@ title: Logistics distribution forecasting contest
 tools: [Dacon, Machine Learning]
 image : http://logsplus.cafe24.com/web/upload/NNEditor/20150722/copy(1437545339)-1.png
 description: Logistics distribution forecasting contest
+date: 2021-12-20
 ---
 
 <h1><a href= "https://dacon.io/competitions/official/235867/overview/description">물류 유통량 예측 경진대회</a><h1>

@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Grad-CAM Visual Explanations from Deep Networks",
+      "category" : "",
+      "tags"     : "Pytorch, Computer Vision, Deep Learning, Explanable AI",
+      "url"      : "/blog/Grad_CAM_Visual_Explanations_from_Deep_Networks",
+      "date"     : "2022-09-19 00:00:00 +0900"
+    } ,
+  
+    {
       "title"    : "GAN(Generative Adversarial Networks)",
       "category" : "",
       "tags"     : "Pytorch, Computer Vision, Deep Learning",
@@ -69,7 +77,7 @@
       "title"    : "A contest to predict the rental volume of Ttareungi",
       "category" : "",
       "tags"     : "",
-      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2021_12_31_AI_Competition_to_Predict_Parking_Demand.ipynb",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2021_12_31_A_contest_to_predict_the_rental_volume_of_Ttareungi.ipynb",
       "date"     : "2021-12-31 00:00:00 +0900"
     } ,
   
@@ -77,7 +85,7 @@
       "title"    : "AI Competition to Predict Parking Demand",
       "category" : "",
       "tags"     : "",
-      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2021_12_31_A_contest_to_predict_the_rental_volume_of_Ttareungi.ipynb",
+      "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2021_12_31_AI_Competition_to_Predict_Parking_Demand.ipynb",
       "date"     : "2021-12-31 00:00:00 +0900"
     } ,
   
@@ -114,11 +122,27 @@
     } ,
   
     {
+      "title"    : "The 7th Lotte Members Big Data Contest",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/2022-08-31-the-7th-lotte-members-big-data-contest",
+      "date"     : "2022-08-31 00:00:00 +0900"
+    } ,
+  
+    {
       "title"    : "Samsung AI Challenge (3D Metrology)",
       "category" : "",
       "tags"     : "",
       "url"      : "https://github.com/JoGyeongDeok/Project/blob/main/Dacon/2022_9_16_Samsung_AI_Challenge_(3D_Metrology).ipynb",
       "date"     : "2022-09-16 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "The 1st Shinhan Big Data Hackathon",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/2022-09-31-shinhan-big-data-hackathon",
+      "date"     : "2022-10-01 00:00:00 +0900"
     } 
   
 ]
