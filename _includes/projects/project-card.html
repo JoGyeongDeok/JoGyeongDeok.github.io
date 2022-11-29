@@ -1,3 +1,5 @@
+{%- assign text_style  = 'text-themed' -%}
+
 <div class="wow animated fadeIn" data-wow-delay=".15s">
   <a href="{{ project_url }}" class="project card text-themed" {%- if external and site.open_new_tab -%} target="_blank" {%- endif -%}>
     {%- if project_img -%}
@@ -10,7 +12,9 @@
           {%- endif -%}
         {{ project_name }}
       </h5>
-      <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
+      <h4 id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</h4>
+      <p>[{{ project.date | date_to_long_string }}]</p>
+
       <p id="{{ project_id }}-tools" class="card-text">
         {%- for tool in project_tools -%}
         <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
