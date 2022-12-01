@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "pytorch_keras",
+      "category" : "DeepLearning",
+      "tags"     : "Pytorch, Deep Learning",
+      "url"      : "/blog/pytorch_keras",
+      "date"     : "2022-12-01 00:00:00 +0900"
+    } ,
+  
+    {
       "title"    : "Grad-CAM Visual Explanations from Deep Networks",
       "category" : "",
       "tags"     : "Pytorch, Computer Vision, Deep Learning, Explanable AI",
