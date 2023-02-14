@@ -1,0 +1,14 @@
+# main links
+main:
+
+  - title: "Tags"
+    url: /tags/
+  - title: "Project"
+    url: /Project/
+  - title: "Paper Review"
+    url: /paper_review/
+  - title: "Blog"
+    url: /Blog/
+  - title: "About"
+    url: /About/
+
