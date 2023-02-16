@@ -2,7 +2,7 @@
     * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
     .progress-box {display: flex; width: auto; height: 80px; transform: scale(1.4); margin-bottom: 60px;}
     .progress-box:last-child {margin-bottom: 0;}
-    .title {width: 150px; height: 35px; font-size: 18px; color: #000000; font-weight: 500; letter-spacing: 1px; padding: 0 0 0 10px;}
+    .title {width: 150px; height: 35px; font-size: 18px; font-weight: 500; letter-spacing: 1px; padding: 0 0 0 10px;}
     .progress {position: relative; width: 650px; height: 35px; background: #aeb8fe; border-radius: 35px;}
     .progress-bar {background: #758bfd; border-radius: 35px;}
     .progress-number {position: absolute; width: 50px; height: 50px; line-height: 50px; background: #5465ff; border-radius: 50%; font-size: 16px; color: #fff; font-weight: 500; letter-spacing: 1px; text-align: center;}
@@ -103,7 +103,7 @@
       <div>
 
         <div class="progress-box">
-          <div class="title">{{skill.name}}</div>
+          <div class="title bg-themed">{{skill.name}}</div>
           <div class="progress">
             <div class="progress-bar bar-1" style = "width: {{skill.percentage}}%; 
             animation: bar_{{skill.percentage}} 2s ease-in-out;"></div>
