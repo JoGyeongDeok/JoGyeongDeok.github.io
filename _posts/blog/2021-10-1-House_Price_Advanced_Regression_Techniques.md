@@ -14,6 +14,8 @@ toc_sticky: true
 use_math: true
 ---
 
+
+
 <br><br>
 Kaggle House Price Advanced Regression Techniques 대회의 **MING**의 코드를 참조하였다. Data 전처리 과정 중 모든 열에서 결측치가 존재하여 **결측치 처리**가 중요하였다. 이상치는 **ols** 모듈을 통해 제거하였고, **릿지 회귀모델**과 **LGBM 부스팅 기법**을 **Stacking**하여 모델링하였다.
 
