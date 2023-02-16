@@ -14,6 +14,15 @@ toc: true
 toc_sticky: true 
 ---
 
+<script src="https://utteranc.es/client.js"
+        repo="JoGyeongDeok/comment"
+        issue-term="pathname"
+        label="utterances"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <br><br>
 Kaggle의 Heart Attack Analysis & Prediction Dataset대회이다. 간단한 EDA 후 바로 모델링을 하였다. **make_pipeline**을 통해 스케쥴러, **SVC**모델을 적합시켰다. 또한 **GridSearchCV**를 통해 **linear kernel**, **rbf** 커널의 SVC모델을 적합시켰다.
 
