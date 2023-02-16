@@ -79,19 +79,20 @@ layout: default
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-      {% include comments.html %}
+      <!-- {% include comments.html %} -->
+      <div>
+        <script src="https://utteranc.es/client.js"
+        repo="JoGyeongDeok/comment"
+        issue-term="pathname"
+        label="utterances"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
+      </div>      
     {% endif %}
   </article>
-  <div>
-    <script src="https://utteranc.es/client.js"
-    repo="JoGyeongDeok/comment"
-    issue-term="pathname"
-    label="utterances"
-    theme="github-light"
-    crossorigin="anonymous"
-    async>
-    </script>
-  </div>
+
   {% comment %}
   {% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
