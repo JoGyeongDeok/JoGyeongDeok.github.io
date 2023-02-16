@@ -5,7 +5,7 @@ comments: true
 excerpt: Semantic Segmentation
 date : 2022-03-05
 categories: 
-  - paper_review
+  - PaperReview
 layout: jupyter
 search: true
 # 목차

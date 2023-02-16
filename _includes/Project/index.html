@@ -1,6 +1,6 @@
 
 <ul class="taxonomy__index">
-  {% assign postsInYear = site.categories.project | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% assign postsInYear = site.categories.Project | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -15,7 +15,7 @@
   </article>
 </ul>
 
-{% assign postsByYear = site.categories.project | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign postsByYear = site.categories.Project | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>

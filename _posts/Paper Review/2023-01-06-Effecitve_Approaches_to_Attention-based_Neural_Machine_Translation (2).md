@@ -5,7 +5,7 @@ comments: true
 excerpt: Attention
 date : 2023-01-06
 categories: 
-  - paper_review
+  - PaperReview
 layout: jupyter
 search: true
 # 목차

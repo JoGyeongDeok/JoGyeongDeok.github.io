@@ -5,7 +5,7 @@ comments: true
 excerpt: Multi-Modal
 date : 2022-05-04
 categories: 
-  - paper_review
+  - PaperReview
 layout: jupyter
 search: true
 # 목차

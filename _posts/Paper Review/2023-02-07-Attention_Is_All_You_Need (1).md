@@ -5,7 +5,7 @@ comments: true
 excerpt: Transformer
 date : 2023-02-07
 categories: 
-  - paper_review
+  - PaperReview
 layout: jupyter
 search: true
 # 목차

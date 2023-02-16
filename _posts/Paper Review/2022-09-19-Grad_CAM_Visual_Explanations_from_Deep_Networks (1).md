@@ -5,7 +5,7 @@ comments: true
 excerpt: CAM
 date : 2022-09-19
 categories: 
-  - paper_review
+  - PaperReview
 layout: jupyter
 search: true
 # 목차

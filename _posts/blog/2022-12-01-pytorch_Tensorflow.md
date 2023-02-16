@@ -186,6 +186,7 @@ print(pytorch_model._modules)
       (2): Softmax(dim=None)
     ))])
     
+<br>
 
 # 2. Tensorflow CNN
 

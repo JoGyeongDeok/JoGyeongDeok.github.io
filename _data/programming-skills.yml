@@ -4,8 +4,12 @@
 
 - name: R
   percentage: 70
-  color:
+  color: 
 
 - name: C++
   percentage: 30
+  color: secondary
+
+- name: HTML
+  percentage: 40
   color: secondary

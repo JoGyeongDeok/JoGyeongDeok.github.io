@@ -1,5 +1,5 @@
 <ul class="taxonomy__index">
-  {% assign postsIncategory = site.categories.paper_review | group_by_exp: 'post', 'post.category' %}
+  {% assign postsIncategory = site.categories.PaperReview | group_by_exp: 'post', 'post.category' %}
   {% for year in postsIncategory %}
     <li>
       <a href="#{{ year.name }}">
@@ -14,7 +14,7 @@
   </article>
 </ul>
 
-{% assign postsIncategory = site.categories.paper_review | group_by_exp: 'post', 'post.category' %}
+{% assign postsIncategory = site.categories.PaperReview | group_by_exp: 'post', 'post.category' %}
 {% for year in postsIncategory %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>

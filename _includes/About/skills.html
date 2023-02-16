@@ -1,36 +1,121 @@
-<link rel="stylesheet" href="animate.css">
-<script src="wow.min.js"></script>
-<script>
-new WOW().init();
-</script>
-
 <style>
-  progress{
-    width: 800px;
-    height: 100px;
-    align : center;
-    animation : progreses 1500ms ease-in 1;
-  }
-</style>
-<div class="col-lg">
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+    .progress-box {display: flex; width: auto; height: 80px; transform: scale(1.4); margin-bottom: 60px;}
+    .progress-box:last-child {margin-bottom: 0;}
+    .title {width: 150px; height: 35px; font-size: 18px; color: #000000; font-weight: 500; letter-spacing: 1px; padding: 0 0 0 10px;}
+    .progress {position: relative; width: 650px; height: 35px; background: #aeb8fe; border-radius: 35px;}
+    .progress-bar {background: #758bfd; border-radius: 35px;}
+    .progress-number {position: absolute; width: 50px; height: 50px; line-height: 50px; background: #5465ff; border-radius: 50%; font-size: 16px; color: #fff; font-weight: 500; letter-spacing: 1px; text-align: center;}
+    .bar-1 { height: 35px; }
+    .num-1 {top: -7.5px; }
+    @keyframes bar_10 {
+        0% {width: 0%;}
+        100% {width: 10%;}
+    }
+    
+    @keyframes num_10 {
+        0% {left: -25px;}
+        100% {left: calc(10% - 25px);}
+    }
+    @keyframes bar_20 {
+        0% {width: 0%;}
+        100% {width: 20%;}
+    }
+    
+    @keyframes num_20 {
+        0% {left: -25px;}
+        100% {left: calc(20% - 25px);}
+    }
+    @keyframes bar_30 {
+        0% {width: 0%;}
+        100% {width: 30%;}
+    }
+    
+    @keyframes num_30 {
+        0% {left: -25px;}
+        100% {left: calc(30% - 25px);}
+    }
+    @keyframes bar_40 {
+        0% {width: 0%;}
+        100% {width: 40%;}
+    }
+    
+    @keyframes num_40 {
+        0% {left: -25px;}
+        100% {left: calc(40% - 25px);}
+    }
+    @keyframes bar_50 {
+        0% {width: 0%;}
+        100% {width: 50%;}
+    }
+    
+    @keyframes num_50 {
+        0% {left: -25px;}
+        100% {left: calc(50% - 25px);}
+    }
+    @keyframes bar_60 {
+        0% {width: 0%;}
+        100% {width: 60%;}
+    }
+    
+    @keyframes num_60 {
+        0% {left: -25px;}
+        100% {left: calc(60% - 25px);}
+    }
+    @keyframes bar_70 {
+        0% {width: 0%;}
+        100% {width: 70%;}
+    }
+    
+    @keyframes num_70 {
+        0% {left: -25px;}
+        100% {left: calc(70% - 25px);}
+    }
+    @keyframes bar_80 {
+        0% {width: 0%;}
+        100% {width: 80%;}
+    }
+    
+    @keyframes num_80 {
+        0% {left: -25px;}
+        100% {left: calc(80% - 25px);}
+    }
+    @keyframes bar_90 {
+        0% {width: 0%;}
+        100% {width: 90%;}
+    }
+    
+    @keyframes num_100 {
+        0% {left: -25px;}
+        100% {left: calc(100% - 25px);}
+    }
+    @keyframes bar_100 {
+        0% {width: 0%;}
+        100% {width: 100%;}
+    }
+  
+  </style>
+  <div class="col-lg">
+  
+    <h2 class="mb-3" style = "margin-bottom : 50px;">{{ include.title }}</h2>
+  
+    {% for skill in include.source %}
+      <div>
 
-  <h2 class="mb-3">{{ include.title }}</h2>
-
-  {% for skill in include.source %}
-
-  <div class="row justify-content-between align-items-center" >
-    <div class="col-10 progress-box">
-      <p class="mb-1 title">{{ skill.name }}</p>
-    </div>
-    <div>
-      <div class="col-2 text-right">
-        <p class="mb-1 text-muted">{{ skill.percentage }}%</p>
-        <div>
-          <progress max = "100" min = "100" value = {{skill.percentage}} ></progress>
+        <div class="progress-box">
+          <div class="title">{{skill.name}}</div>
+          <div class="progress">
+            <div class="progress-bar bar-1" style = "width: {{skill.percentage}}%; 
+            animation: bar_{{skill.percentage}} 2s ease-in-out;"></div>
+            <div class="progress-number num-1" style = "left: calc({{skill.percentage}}% - 25px);
+            animation: num_{{skill.percentage}} 2s ease-in-out;">{{skill.percentage}}%</div>
+          </div>
         </div>
-      </div>
-    </div>
+      </div>  
+  
+    {% endfor %}
+  
   </div>
-  {% endfor %}
-
-</div>
+  
+  
+  
