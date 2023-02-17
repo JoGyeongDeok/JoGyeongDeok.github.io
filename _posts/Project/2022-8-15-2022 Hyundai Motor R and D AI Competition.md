@@ -1,5 +1,5 @@
 ---
-title: 2022 Hyundai Motor R&D AI Competition
+title: 2022 Hyundai Motor R and D AI Competition
 tags: [Dacon, Deep Learning, Computer Vision]
 excerpt: Computer Vision
 date: 2022-8-15
@@ -17,7 +17,7 @@ category : Computer Vision
     table {font-size: 13pt;}
 </STYLE>
 
-# <a href= "https://dacon.io/en/competitions/official/235897/overview/description">2022 현대자동차 R&D AI 경진대회</a>
+# <a href= "https://dacon.io/en/competitions/official/235897/overview/description">2022 현대자동차 R and D AI 경진대회</a>
 
 <img src = "/images/hyundai/hyundai_1.jpeg" height = "700" width = "700">
 

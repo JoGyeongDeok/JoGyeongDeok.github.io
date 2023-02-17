@@ -1,5 +1,5 @@
 ---
-title: AI SPARK Challenge of the 2nd R&D Special Zone Artificial Intelligence Competition
+title: AI SPARK Challenge of the 2nd R and D Special Zone Artificial Intelligence Competition
 tags: [Ai Factory, Deep Learning, Computer Vision]
 excerpt: Object Detection
 date: 2022-2-4
