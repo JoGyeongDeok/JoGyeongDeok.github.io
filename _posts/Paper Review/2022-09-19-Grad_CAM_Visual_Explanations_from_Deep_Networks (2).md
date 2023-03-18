@@ -1,5 +1,5 @@
 ---
-title: "Grad-CAM Visual Explanations from Deep Networks"
+title: "Grad-CAM Visual Explanations from Deep Networks(2)"
 tags: [Pytorch, Computer Vision, Deep Learning, Explanable AI]
 comments: true
 excerpt: CAM
@@ -22,6 +22,8 @@ category : Computer Vision
 </style>
 
 # II. Grad-CAM
+
+<img src = "https://miro.medium.com/max/1400/1*Ywow17bDVkNzBnIA8NAUxg.png" height = 300 width = 1200>
 
 Convolutional layers에 남아있는 공간적인 정보는 fullly-connected layer에서 잃게 된다. 그래서 본 논문에서는 마지막 convolutional layer가 higher-level semantics와 detailed 공간정보의 적당한 타협점을 가진다고 생각했다.<br><br>
 

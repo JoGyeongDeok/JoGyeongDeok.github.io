@@ -514,4 +514,4 @@ CAM의 가장 큰 단점은 바로 Global Average Pooling layer가 반드시 필
 
 또한 기존의 CAM은 여러가지 CNN model-families 중에 마지막에 FC Layer가 존재하는 Classification에만 적용 가능하다. 즉 Captioning, Visual Question Answering), 강화학습 등 다양한 모델에 적용이 불가능하다.
 
-<img src = "https://miro.medium.com/max/1400/1*Ywow17bDVkNzBnIA8NAUxg.png" height = 300 width = 1200>
+
